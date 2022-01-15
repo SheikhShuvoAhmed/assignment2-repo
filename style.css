@@ -11,7 +11,7 @@ body{
 .container{
     width: 90%;
     margin: 0 auto;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 /* universal style end */
 header{
@@ -59,6 +59,7 @@ nav ul li a{
     border: 1px solid #E02C6D;
     border-radius: 20px;
     color: white;
+    background-color: #E02C6D;
 }
 .right_side{
     width: 50%;
@@ -80,3 +81,78 @@ nav ul li a{
     padding: 20px 0px;
 }
  /* middle logo end */
+
+ /* popular section start */
+ .popular_section{
+     margin-bottom: 100px;
+ }
+ .section_header{
+     text-align: center;
+     margin-bottom: 50px;
+ }
+ .box img{
+     background-color: white;
+     padding: 10px;
+     border-radius: 5px;
+     width: 300px;
+     height: 200px;
+ }
+ .box_text{
+     color: #5E6366;
+ }
+ .box_text span{
+     color: #FB8200;
+     font-size: 10px;
+ }
+ .popular_boxs{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     justify-content: center;
+     row-gap: 10px;
+     column-gap: 10px;
+ }
+ .lower_btn{
+     margin-top: 30px;
+     padding: 10px 30px;
+     text-align: right;
+ }
+ .lower_btn a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 5px;
+    
+    
+ }
+ /* popular section  end */
+
+ /* omicon section start */
+ .omicron_section{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     align-items: center;
+     margin: 0px 100px;
+     padding-bottom: 50px;
+ }
+ .left_section{
+     margin-left: 100px;
+ }
+ .left_section img{
+     border-radius: 5px;
+     background-color: white;
+     padding: 5px;
+ }
+ .right_section{
+     margin-right: 100px;
+ }
+ .right_btn{
+     margin-top: 30px;
+ }
+ .right_section a{
+        text-decoration: none;
+        padding: 10px 30px;
+        color: white;
+        background-color: #E02C6D;
+        border-radius: 10px;
+ }
