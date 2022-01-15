@@ -63,7 +63,13 @@ nav ul li a{
 }
 .right_side{
     width: 50%;
+    transition: transform 2s;
 }
+.right_side:hover{
+    background-color:aqua;
+    transform: rotate(360deg);
+}
+
 .right_side img{
     width: 80%;
 }
