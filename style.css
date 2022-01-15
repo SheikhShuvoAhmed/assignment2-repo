@@ -156,3 +156,20 @@ nav ul li a{
         background-color: #E02C6D;
         border-radius: 10px;
  }
+ /* footer start */
+ footer{
+     text-align: center;
+     background-color: #0A0826;
+     color: white;
+     padding: 50px 0px;
+     
+ }
+ footer h2,h3,h4{
+    font-weight: 200;
+ }
+ .fab{
+     padding: 10px;
+     background-color: #22203B;
+     border-radius: 50%;
+ }
+ /* footer end */
