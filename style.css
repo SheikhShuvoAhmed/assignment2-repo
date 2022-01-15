@@ -37,8 +37,9 @@ nav ul li a{
  .influence_section{
      display: flex;
      align-items: center;
+     margin-bottom: 50px;
  }
- /* influencer style end */
+
  .left_side{
      width: 50%;
  }
@@ -65,3 +66,17 @@ nav ul li a{
 .right_side img{
     width: 80%;
 }
+ /* influencer style end */
+ /* middle logo start */
+ .logo_section{
+     border-top: 2px solid #E02C6D;
+     border-bottom: 2px solid #E02C6D;
+     margin-bottom: 50px;
+ }
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+ /* middle logo end */
